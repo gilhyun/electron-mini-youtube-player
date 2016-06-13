@@ -1,0 +1,32 @@
+.PlayerHide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 48px;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.NoVideo {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: 0px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 100;
+  color: rgba(255,255,255,0.2);
+}
+
+.Loading {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: 0px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 100;
+  color: rgba(255,255,255,0.2);
+}

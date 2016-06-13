@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Youtube</title>
+  <link rel="stylesheet" href="./assets/styles/animate.css" />
+  <link rel="stylesheet" href="./assets/fonts/budicon/budicon.css" />
+  <link rel="stylesheet" href="./assets/styles/base-ko.css" />
+  <link rel="stylesheet" href="./assets/styles/youtube-home.css" />
+  <script>
+    const getYoutubeUrl = require('youtube-url');
+
+    onload = function() {
+      var webview = document.getElementById("youtube");
+      var videoChecker = document.querySelector(".videoChecker");
+      var loadstart = function() {
+        var url = webview.getURL();
+        var urlValidate = getYoutubeUrl.extractId(url);
+        videoChecker.innerHTML = '<span class="bi_interface-tick" />' + urlValidate;
+      }
+
+      webview.addEventListener("did-start-loading", loadstart);
+    }
+  </script>
+</head>
+<body>
+  <div class="toolbar">
+    <div class="videoChecker"></div>
+  </div>
+  <webview id="youtube" src="https://www.youtube.com/watch?v=PnblKcw3VPs" autosize="on"></webview>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+html {
+  background-color: transparent;
+  background-color: #111;
+}
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-color: #111;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.03);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.08);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.4);
+}
+
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* btns */
+.opened_btn span {
+  transform: rotate(45deg);
+  opacity: 1 !important;
+}
+
+/* Player titlebar */
+#app-titlebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#app-titlebar .titlebar {
+  /*background-color: transparent;*/
+  background-color: rgba(0,0,0,0.85);
+  /*padding: 10px 16px;*/
+}
+
+@media (max-width: 240px) {
+  #app-titlebar .titlebar {
+    /*padding: 5px;*/
+  }
+}

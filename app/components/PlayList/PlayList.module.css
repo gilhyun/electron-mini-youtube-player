@@ -1,0 +1,21 @@
+.PlayListContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 200px;
+  background-color: #eff1f3;
+}
+
+.PlayListContents {
+  display: block;
+  position: absolute;
+  top: 68px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: #eff1f3;
+}

@@ -1,0 +1,22 @@
+.TitleBar {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 43px;
+  left: 0;
+  display:-webkit-box;
+  margin: 0;
+  padding: 10px 15px;
+  color: #333;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  background-color: #111;
+  color: #fff;
+  /*-webkit-user-select: text;
+  user-select: text;*/
+}

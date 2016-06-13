@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 200;
+  src: url('NanumBarunGothicUltraLight.woff2') format('woff2'),
+       url('NanumBarunGothicUltraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('NanumBarunGothic.woff2') format('woff2'),
+       url('NanumBarunGothic.woff') format('woff');
+}

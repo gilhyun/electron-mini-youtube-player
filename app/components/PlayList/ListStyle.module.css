@@ -1,0 +1,92 @@
+.ListContainer {
+  position: relative;
+  padding-top: 25px;
+}
+
+.ListCover {
+  position: relative;
+}
+
+.TitleBar {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  width: 100%;
+  padding: 8px 0;
+  color: #4b5263;
+  font-size: 11px;
+  font-weight: 400;
+  text-indent: 20px;
+  /*border-bottom: 1px solid rgba(0,0,0,0.04);*/
+  /*background-color: rgba(0,0,0,0.05);*/
+  background-color: rgba(222,224,226,0.95);
+  text-align: left;
+}
+
+.List {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+  height: 100%;
+  background-color: #eff1f3;
+}
+
+.List > span {
+  float: left;
+  display: inline-block;
+  width: 160px;
+  margin: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.Thumb {
+  width: 160px;
+  height: 90px;
+  overflow: hidden;
+  /*-webkit-filter: grayscale(100%);*/
+}
+.Thumb img {
+  max-width: 100%;
+}
+
+.Title {
+  height: 31px;
+  line-height: 17px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  padding: 10px 10px 4px 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #111;
+  font-weight: 400;
+}
+
+.Next {
+  clear: both;
+  width: 670px !important;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 10px;
+  margin: 14px 8px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+.hidePlayer {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}

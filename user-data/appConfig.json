@@ -1,0 +1,31 @@
+{
+  "autoHidePlayer": 0,
+  "autoHideVideoChecker": 1,
+  "aspectRatio": "16/9",
+  "playerResizable": 1,
+  "playerOpts": {
+    "origin": "file://",
+    "playerVars": {
+      "iv_load_policy": 3,
+      "rel": 0,
+      "controls": 0,
+      "showinfo": 0,
+      "disablekb": 1,
+      "listType": "playlist"
+    }
+  },
+  "testPlayerOpts": {
+    "origin": "file://",
+    "playerVars": {
+      "autoplay": 1,
+      "iv_load_policy": 3,
+      "rel": 0,
+      "controls": 0,
+      "showinfo": 0,
+      "disablekb": 1,
+      "mute": 0
+    }
+  },
+  "hotKeyTogglePlayer": "command+shift+m",
+  "hotKeyTogglePlayList": "command+shift+l"
+}

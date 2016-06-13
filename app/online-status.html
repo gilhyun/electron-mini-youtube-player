@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>온라인/오프라인 체크</title>
+</head>
+<body>
+<script>
+  const ipcRenderer = window.require('electron').ipcRenderer;
+  var updateOnlineStatus = function() {
+    ipcRenderer.send('change-online-status', navigator.onLine ? 'online' : 'offline');
+  };
+
+  window.addEventListener('online',  updateOnlineStatus);
+  window.addEventListener('offline',  updateOnlineStatus);
+
+  updateOnlineStatus();
+
+  ipcRenderer.on('check-online-status', () => {
+    updateOnlineStatus();
+  });
+</script>
+</body>
+</html>

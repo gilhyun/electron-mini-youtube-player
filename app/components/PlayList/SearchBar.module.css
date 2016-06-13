@@ -1,0 +1,53 @@
+.SearchBar {
+  position: relative;
+  top: 0;
+  z-index: 20;
+  height: 58px;
+  padding-top: 10px;
+  background-color: #eff1f3;
+  /*background-color: #fff;*/
+  /*box-shadow: 0 2px 2px rgba(0,0,0,0.2);*/
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.BtnSearchIcon {
+  position: absolute !important;
+  top: 9px;
+  left: 0;
+}
+
+.BtnSearchIcon span {
+  opacity: 0.6;
+}
+
+.BtnSearchIcon:hover span {
+  opacity: 1;
+}
+
+.TextFieldSearch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50px;
+}
+
+.TextFieldSearch > input {
+  line-height: 50px !important;
+  font-size: 26px !important;
+  webkit-app-region: drag;
+}
+
+.TextFieldSearch > div {
+  font-size: 26px !important;
+}
+
+.TextFieldSearch hr {
+  display: none !important;
+}
+
+.BtnClearKeyword {
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+}

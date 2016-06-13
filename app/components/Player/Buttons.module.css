@@ -1,0 +1,53 @@
+.Buttons {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  /*background-color: #111;*/
+}
+
+.Buttons li {
+  position: relative;
+  /*width: 20%;*/
+  display: inline-block;
+  text-align: center;
+}
+
+.Buttons li span {
+  font-size: 18px !important;
+  color: #fff !important;
+}
+
+.Buttons li:hover span {
+  color: #fff !important;
+}
+
+.Buttons li.BtnsRight {
+  float: right;
+}
+
+.Buttons li.BtnHide {
+  display: none;
+}
+
+.Buttons li .OnBtnRepeatVideo span {
+  color: rgb(255, 23, 68) !important;
+}
+
+.Buttons li:hover .OnBtnRepeatVideo span {
+  color: rgb(255, 23, 68) !important;
+}
+
+@media (max-width: 240px) {
+  .Buttons li {
+    display: none;
+  }
+
+  .Buttons li.hold {
+    display: inline-block;
+  }
+}
