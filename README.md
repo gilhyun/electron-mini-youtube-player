@@ -12,6 +12,11 @@ This is a youtube player for Electron application.
 ![screenshot](mini-s-2.png)
 
 
+Download
+--------
+[Download](https://www.dropbox.com/s/ld93yl43ie49ipt/Mini-darwin-x64.zip?dl=0) - Mac Os
+
+
 Features
 --------
 - youtube api
