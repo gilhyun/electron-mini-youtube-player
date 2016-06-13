@@ -1,4 +1,4 @@
-# electron-trayapp(Arrow trick)
+# electron-mini-youtube-player
 
 This is a youtube player for Electron application.
 **tested on only mac os**
