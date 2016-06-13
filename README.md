@@ -47,4 +47,6 @@ Package app
 ```bash
 $ (sudo) npm install -g webpack
 $ NODE_ENV=production node package.js
+---
+## look ./release/darwin-x64/Mini-darwin-x64
 ```
