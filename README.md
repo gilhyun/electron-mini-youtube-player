@@ -45,5 +45,6 @@ const youtubeKeys = [
 Package app
 ---------------
 ```bash
-NODE_ENV=production node package.js
+$ (sudo) npm install -g webpack
+$ NODE_ENV=production node package.js
 ```
