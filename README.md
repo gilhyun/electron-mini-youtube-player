@@ -1,3 +1,4 @@
+![](icons/trayIcon@2x.png)
 # electron-mini-youtube-player
 
 This is a youtube player for Electron application.
