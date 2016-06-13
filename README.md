@@ -32,6 +32,15 @@ $ node server.js
 $ HOT=1 NODE_ENV=development ./node_modules/.bin/electron .
 ```
 
+Edit api key /app/api/youtubeData.js
+---------------
+```bash
+const youtubeKeys = [
+  'YOUR_YOUTUBE_API_KEY'
+]
+```
+
+
 Package app
 ---------------
 ```bash
