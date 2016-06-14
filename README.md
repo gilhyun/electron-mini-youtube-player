@@ -19,10 +19,13 @@ Download
 
 Features
 --------
-- youtube api
-- youtube search video
-- html5 player
-- app package
+- (Youtube)Search Video
+- Search History
+- Play List
+- Play Loop
+- Resize Screen
+- Full Screen
+- Always On Top
 
 
 Getting Started
