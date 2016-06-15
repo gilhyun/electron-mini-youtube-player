@@ -7,9 +7,9 @@ This is a youtube player for Electron application.
 
 **Mac OS**
 
-![screenshot](mini-s-1.png)
-
 ![screenshot](mini-s-2.png)
+
+![screenshot](mini-s-1.png)
 
 
 Download Mini
