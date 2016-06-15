@@ -12,9 +12,13 @@ This is a youtube player for Electron application.
 ![screenshot](mini-s-2.png)
 
 
-Download
+Download Mini
 --------
-[Download](https://www.dropbox.com/s/ld93yl43ie49ipt/Mini-darwin-x64.zip?dl=0) - Mac Os
+1. [Download](https://www.dropbox.com/s/ld93yl43ie49ipt/Mini-darwin-x64.zip?dl=0) - Mac Os
+2. Drag Mini from your Downloads folder to the Applications folder.
+3. Right click on Mini.
+4. Choose "Open".
+5. If a warning dialog is shown, choose "Open".
 
 
 Features
